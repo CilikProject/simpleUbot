@@ -58,7 +58,7 @@ def install_req(cmd: str) -> Tuple[str, str, int, int]:
 
     return asyncio.get_event_loop().run_until_complete(install_requirements())
 
-REPO_URL = "https://github.com/hidagans/Cilik-Ubot" 
+REPO_URL = "https://github.com/CilikProject/UbSel" 
     
 def git():
     REPO_LINK = REPO_URL
