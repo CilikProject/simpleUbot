@@ -20,7 +20,7 @@ from Cilik.utils.pastebin import PasteBin
 
 from .help import add_command_help
 
-GCAST_BL = "https://github.com/hidagans/Cilik-Ubot"
+GCAST_BL = "https://github.com/CilikProject/UbSel"
 
 if GIT_TOKEN:
     GIT_USERNAME = GCAST_BL.split("com/")[1].split("/")[0]
