@@ -188,6 +188,8 @@ async def tag_all_users(client: Client, message: Message):
               )
     else:
         kon = await client.send_message(message.chat.id, text, parse_mode="html")
+        
+    await asyncio.sleep(3)
     done = 0
     error = 0
     async for dialog in client.iter_dialogs():
