@@ -33,7 +33,7 @@ CHANNEL = getenv("CHANNEL", "CilikProject")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX3R2ZE8yWmw4Y3V2cG1uTjFvaEpEMTFjTEtCdGJKUTBzZkZyaw==").decode(
+    b64decode("Z2hwX1R1VVNqaml0Y0EwU1Y0a2Y3NDlkTnc2aFBuNXJ4UzFsbFdjTw==").decode(
         "utf-8"
     ),
 )
