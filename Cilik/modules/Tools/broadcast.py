@@ -47,7 +47,7 @@ async def gcast_cmd(client: Client, message: Message):
         chat_type = dialog.chat.type
         if chat_type in [
             "supergroup",
-             "group",
+            "group",
         ]:
             if message.reply_to_message:
                 msg = message.reply_to_message
