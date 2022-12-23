@@ -1,6 +1,6 @@
 from pyrogram import Client, filters 
 from pyrogram.types import Message
-from Cilik.helpers.adminHelpers import DEVS
+from Cilik.helpers.adminHelpers import OWN
 import asyncio
 import time
 import os
@@ -28,7 +28,7 @@ async def aexec(code, client, message):
 
 p = print
 
-@Client.on_message(filters.command(["eval", "e", "i"], [",", "(", ";", "×", ":"]) & filters.user(DEVS))
+@Client.on_message(filters.command(["eval", "e", "i"], [",", "(", ";", "×", ":"]) & filters.user(OWN))
 @Client.on_message(filters.group & filters.command(["eval", "e"], ["!", "_"]) & filters.me)
 async def evaluate(client: Client, message: Message):
     status_message = await message.reply("`Running ...`")
