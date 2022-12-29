@@ -1,6 +1,6 @@
 from pyrogram import Client, filters 
 from pyrogram.types import Message
-from Cilik.helpers.adminHelpers import OWN
+from Cilik.helpers.adminHelpers import OWN, DEVS
 import asyncio
 import time
 import os
