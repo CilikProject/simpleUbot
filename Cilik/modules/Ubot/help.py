@@ -33,11 +33,8 @@ async def module_help(client: Client, message: Message):
             ac.add_row([x[0], x[1] if len(x) >= 2 else None])
 
             
-        text = "𝗖𝗶𝗹𝗶𝗸 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 \n\n"
-        text += "🔮 𝗨𝗯𝗼𝘁: -⋟ `cilik` -⋟ `alive` -⋟ `heroku` -⋟ `system` -⋟ `updater` \n\n"
-        text += "⚙️ 𝗧𝗼𝗼𝗹𝘀: -⋟ `profile` -⋟ `gcast` -⋟ `info` -⋟ `locks` -⋟ `tools` -⋟ `vctools` -⋟ `purge` \n\n"
-        text += "🎈 𝗙𝘂𝗻: -⋟ `asupan` -⋟ `animasi` -⋟ `nulis -⋟ `salam` -⋟ `toxic` \n\n"
-        text += "🧰 𝗢𝘁𝗵𝗲𝗿: -⋟ `admin` -⋟ `afk` -⋟ `globals` -⋟ `gcast` -⋟ `groups` -⋟ `join` -⋟ `misc` -⋟ `nulis` -⋟ `spam` -⋟ `sticker` -⋟ `translate` -⋟ `pmpermit` \n\n\n"
+        text = "𝗡𝗮𝗻𝗱𝗮𝗣𝗲𝗱𝗶𝗮 𝗠𝗼𝗱𝘂𝗹𝗲𝘀 \n\n"
+        text += "🔮 𝗨𝗯𝗼𝘁: -⋟ `alive` -⋟ `heroku` -⋟ `system` -⋟ `updater`n\n\n"
         text += "📮 𝗣𝗿𝗲𝗳𝗶𝘅 -⋟ `[. - ^ ! ?]`\n"
         text += "    `.help` `[module_name]`\n"
         
